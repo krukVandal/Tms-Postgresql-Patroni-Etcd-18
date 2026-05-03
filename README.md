@@ -1,1 +1,6 @@
-# Tms-Postgresql-Patroni-Etcd-18
+# Задача 1: настройка posgtesql + (patroni + etcd)
+ - Поднял вторую машину и сделал статический ip через netplan
+ - Установил etcd и прописал конфиг
+ - Установил posgtgresql создал пользователя replicator
+ - Установил patroni и прописал конфиг 
+ - Ноды видно но в режим run они не переходят
